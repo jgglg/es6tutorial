@@ -94,7 +94,7 @@ foo() // 101
 参数默认值可以与解构赋值的默认值，结合起来使用。
 
 ```javascript
-function foo({x, y = 5}) {
+function foo({x, y = 5}={}) {
   console.log(x, y);
 }
 
