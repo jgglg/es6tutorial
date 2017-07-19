@@ -332,7 +332,7 @@ function foo(x, y = function() { x = 2; }) {
   console.log(x);
 }
 
-foo() // 3
+foo() // 2
 x // 1
 ```
 
